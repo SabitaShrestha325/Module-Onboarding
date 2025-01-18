@@ -1,4 +1,4 @@
-:root{
+:root {
   --paper: oklch(7 0 0);
   --ink: color-mix(in oklab, var(--color) 5%, black);
   --font: 100%/1.5 system-ui;
@@ -11,82 +11,71 @@ body {
   color: var(--ink);
   font: var(--font);
 }
- img{
-  width:100%;
+img {
+  width: 100%;
   object-fit: cover;
-  
- }
-  
-  
- 
- .container{
-  display:grid;
-  grid-template-columns:repeat(4 fr);
-  grid-template-rows: 60px 1fr  1fr 60px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4 fr);
+  grid-template-rows: 60px 1fr 1fr 60px;
   gap: 1.5rem;
-  padding: 5px; 
+  padding: 5px;
+}
 
-  
- 
- }
-  
-   .item0{
-    
-    margin-bottom: 5px;
-    font-style: italic;
-      text-align: center;
-      display: grid;
-      grid-row: 1;
-      grid-column:1/ span 6;
-      background: black;
-      color:whitesmoke;
-      font: var(--font);
-      font-size: larger;
-      gap: 1.5rem;
-      
-    }
-    .item1{
-    text-align:center;
-    
-    background:#6b5b95;
-    color:yellow;
-    display:grid;
-    grid-column:2/ span 6;
-    grid-row:2;
-    gap: 1.5rem;
-  }
-  .item2{
-    text-align: center;
-    background: #ff7d00;
-    color: beige;
-    display: grid;
-    grid-row: 3;
-    grid-column: 3/ span 2;
-    gap: 1.5rem;
+.item0 {
+  margin-bottom: 5px;
+  font-style: italic;
+  text-align: center;
+  display: grid;
+  grid-row: 1;
+  grid-column: 1 / span 6;
+  background: black;
+  color: whitesmoke;
+  font: var(--font);
+  font-size: larger;
+  gap: 1.5rem;
+}
+.item1 {
+  text-align: center;
 
-  }
-.item3{
+  background: #6b5b95;
+  color: yellow;
+  display: grid;
+  grid-column: 2 / span 6;
+  grid-row: 2;
+  gap: 1.5rem;
+}
+.item2 {
+  text-align: center;
+  background: #ff7d00;
+  color: beige;
+  display: grid;
+  grid-row: 3;
+  grid-column: 3 / span 2;
+  gap: 1.5rem;
+}
+.item3 {
   text-align: center;
   background: linear-gradient(#386641, #6a994e, #a7c957);
-  color:white;
-  font-family: 'Times New Roman', Times, serif;
-  font-size:bold;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: bold;
   padding: 3px 5px 3px 5px;
   display: grid;
-  grid-column:3/ span2 ;
+  grid-column: 3 / span2;
   grid-row: 3;
   gap: 1.5rem;
 }
-.item4{
+.item4 {
   text-align: center;
   background: #cbc0d3;
-color:black;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 900;
-
-
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
 }
-button{
+button {
   height: 60px;
   width: 80px;
   margin: 2px 15px 15px 20px;
@@ -95,8 +84,7 @@ button{
   background: #ee6c4d;
 }
 
-
-    footer{
-      
-      bottom: 0;
-    }
+footer {
+  bottom: 0;
+  position: fixed;
+}
