@@ -12,16 +12,48 @@
       <h1>Product Pick</h1>
     </header>
     <main>
-      <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
+      <form action="results.html" method="GET">
+        <nav>
+          <label for="name">Name:</label><br />
+          <input type="text" name="Name" id="name" /><br />
+        </nav>
+        <section>
+          <label for="Email">Email:</label><br />
+          <input type="text" name="Email" id="Email" required /><br />
+        </section>
+        <section>
+          <label for="password">Password:</label><br />
+          <input type="password" name="password" id="password" /><br />
+        </section><br>
+        <article>
+          <label>T-shirt Colour:</label>
+          <select name="color">
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+          </select>
+        </article><br>
+        <aside>
+          <label>T-shirt Size:</label>
+          <select name="size">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select>
+        </aside>
+
+        <!-- customer name 
+        customer email,colour of t-shirt ( 3 options) size(xs s m l xl xxl)
+        try writing out the requirements first as comments
         this will also help you fill in your PR message later-->
       </form>
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>Sabita Shrestha</h2>
     </footer>
   </body>
 </html>
