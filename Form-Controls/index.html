@@ -15,11 +15,11 @@
       <form action="results.html" method="GET">
         <nav>
           <label for="name">Name:</label><br />
-          <input type="text" name="Name" id="name" /><br />
+          <input type="text" name="Name" id="name" minlength="2"/><br />
         </nav>
         <section>
           <label for="Email">Email:</label><br />
-          <input type="text" name="Email" id="Email" required /><br />
+          <input type="email" name="Email" id="Email" required /><br />
         </section>
         <section>
           <label for="password">Password:</label><br />
@@ -43,7 +43,10 @@
             <option value="XL">XL</option>
             <option value="XXL">XXL</option>
           </select>
-        </aside>
+        </aside><br>
+        <section>
+          <button>Submit</button>
+        </section>
 
         <!-- customer name 
         customer email,colour of t-shirt ( 3 options) size(xs s m l xl xxl)
