@@ -12,10 +12,10 @@
       <h1>Product Pick</h1>
     </header>
     <main>
-      <form action="results.html" method="GET">
+      <form action="results.html" method="post">
         <nav>
           <label for="name">Name:</label><br />
-          <input type="text" name="Name" id="name" minlength="2"/><br />
+          <input type="text" name="Name" id="name" minlength="2" required/><br />
         </nav>
         <section>
           <label for="Email">Email:</label><br />
@@ -23,11 +23,11 @@
         </section>
         <section>
           <label for="password">Password:</label><br />
-          <input type="password" name="password" id="password" /><br />
+          <input type="password" name="password" id="password" required /><br />
         </section><br>
         <article>
           <label for="dropdown">T-shirt Colour:</label>
-          <select name="dropdown" id="dropdown">
+          <select name="dropdown" id="dropdown" required>
             <option value="Red">Red</option>
             <option value="Blue">Blue</option>
             <option value="Green">Green</option>
@@ -35,7 +35,7 @@
         </article><br>
         <aside>
           <label for="dropdown">T-shirt Size:</label>
-          <select name="dropdown" id="dropdown">
+          <select name="dropdown" id="dropdown" required>
             <option value="XS">XS</option>
             <option value="S">S</option>
             <option value="M">M</option>
