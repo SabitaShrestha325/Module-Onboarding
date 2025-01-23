@@ -14,24 +14,27 @@
     <main>
       <form action="results.html" method="post">
         <nav>
-          <label for="name">Name:</label><br />
-          <input type="text" name="Name" id="name" minlength="2" required/><br />
+          <label for="name">Name:</label><br/>
+          <input type="text" name="Name" id="name" minlength="2" required autocomplete="on" ><br/>
         </nav>
         <section>
-          <label for="Email">Email:</label><br />
-          <input type="email" name="Email" id="Email" required /><br />
+          <label for="Email">Email:</label><br/>
+          <input type="email" name="Email" id="Email" autocomplete="on" style="padding:10px; font-size:30px;"><br/>
+        </nav><br/>
         </section>
         <article>
-          <label for="dropdown">T-shirt Colour:</label>
-          <select name="dropdown" id="dropdown" required>
+          <label for="t-shirt colour">T-shirt Colour:</label>
+          <select name="t-shirt colour" id="t-shirt colour" required style="padding:10px; font-size:16px;">
+        </nav>>
             <option value="Red">Red</option>
             <option value="Blue">Blue</option>
             <option value="Green">Green</option>
           </select>
         </article><br>
         <aside>
-          <label for="dropdown">T-shirt Size:</label>
-          <select name="dropdown" id="dropdown" required>
+          <label for="t-shirt size">T-shirt Size:</label>
+          <select name="t-shirt size" id="t-shirt size" required style="padding:10px; font-size:16px;">
+        </nav>>
             <option value="XS">XS</option>
             <option value="S">S</option>
             <option value="M">M</option>
